@@ -1,3 +1,6 @@
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/67ceb188-4f36-44f9-a7dd-6a4c00a393b5" />
+
+
 # 🪙 CriptoApp
 
 > Aplicação web reativa para consulta e monitoramento em tempo real do mercado de criptomoedas, fornecendo métricas de preços, variações de mercado e detalhes financeiros de ativos digitais.
@@ -43,6 +46,8 @@ O projeto foi construído utilizando **React** e **TypeScript**, garantindo tipa
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/moronioliveira/criptoapp.git]
+
+   
 
 
 
