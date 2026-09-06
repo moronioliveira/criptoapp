@@ -42,7 +42,7 @@ O projeto foi construído utilizando **React** e **TypeScript**, garantindo tipa
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/moronioliveira/criptoapp.git](https://github.com/moronioliveira/criptoapp.git)
+   git clone [https://github.com/moronioliveira/criptoapp.git]
 
 
 
