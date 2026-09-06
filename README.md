@@ -1,75 +1,49 @@
-# React + TypeScript + Vite
+# 🪙 CriptoApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Aplicação web reativa para consulta e monitoramento em tempo real do mercado de criptomoedas, fornecendo métricas de preços, variações de mercado e detalhes financeiros de ativos digitais.
 
-Currently, two official plugins are available:
+🌐 **Demo Online:** [Acessar CriptoApp](https://moronioliveira.github.io/criptoapp/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎯 Sobre o Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O **CriptoApp** foi desenvolvido para oferecer aos usuários uma interface simples, rápida e intuitiva na análise de criptomoedas. A aplicação consome dados assíncronos de APIs externas para exibir cotações atualizadas, volume de negociação, variação percentual de preço e detalhes específicos de cada moeda.
 
-## Expanding the ESLint configuration
+O projeto foi construído utilizando **React** e **TypeScript**, garantindo tipagem estática rigorosa para os modelos de dados da API, prevenção de erros em tempo de compilação e alta manutenibilidade do código.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tecnologias Utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **[React](https://react.dev/):** Biblioteca para construção de interfaces reativas baseadas em componentes.
+- **[TypeScript](https://www.typescriptlang.org/):** Supersat de JavaScript que adiciona tipagem estática e segurança ao código.
+- **[Vite](https://vitejs.dev/):** Ferramenta de build rápida e servidor de desenvolvimento de alta performance.
+- **[React Router DOM](https://reactrouter.com/):** Gerenciamento de rotas e navegação entre páginas (Home e Detalhes da Moeda).
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+## ✨ Funcionalidades
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+- **Listagem de Criptomoedas:** Exibição detalhada das principais criptomoedas com preço, variação em 24h e volume.
+- **Busca em Tempo Real:** Filtro imediato de ativos por nome ou símbolo da moeda.
+- **Página de Detalhes:** Visualização profunda de métricas de uma moeda específica (maior/menor preço histórico, valor de mercado, oferta).
+- **Design Responsivo:** Adaptado para navegação fluida em dispositivos móveis e desktops.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🚀 Como Executar o Projeto Localmente
 
-```
+### Pré-requisitos
+- **Node.js** (versão 18 ou superior)
+- **npm** ou **yarn**
+
+### Passo a Passo
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/moronioliveira/criptoapp.git](https://github.com/moronioliveira/criptoapp.git)
+
+
+
+   
