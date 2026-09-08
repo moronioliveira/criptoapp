@@ -1,75 +1,54 @@
-# React + TypeScript + Vite
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/67ceb188-4f36-44f9-a7dd-6a4c00a393b5" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🪙 CriptoApp
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Aplicação web reativa para consulta e monitoramento em tempo real do mercado de criptomoedas, fornecendo métricas de preços, variações de mercado e detalhes financeiros de ativos digitais.
 
-## React Compiler
+🌐 **Demo Online:** [Acessar CriptoApp](https://moronioliveira.github.io/criptoapp/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Sobre o Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+O **CriptoApp** foi desenvolvido para oferecer aos usuários uma interface simples, rápida e intuitiva na análise de criptomoedas. A aplicação consome dados assíncronos de APIs externas para exibir cotações atualizadas, volume de negociação, variação percentual de preço e detalhes específicos de cada moeda.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+O projeto foi construído utilizando **React** e **TypeScript**, garantindo tipagem estática rigorosa para os modelos de dados da API, prevenção de erros em tempo de compilação e alta manutenibilidade do código.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tecnologias Utilizadas
 
-```
+- **[React](https://react.dev/):** Biblioteca para construção de interfaces reativas baseadas em componentes.
+- **[TypeScript](https://www.typescriptlang.org/):** Supersat de JavaScript que adiciona tipagem estática e segurança ao código.
+- **[Vite](https://vitejs.dev/):** Ferramenta de build rápida e servidor de desenvolvimento de alta performance.
+- **[React Router DOM](https://reactrouter.com/):** Gerenciamento de rotas e navegação entre páginas (Home e Detalhes da Moeda).
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Funcionalidades
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Listagem de Criptomoedas:** Exibição detalhada das principais criptomoedas com preço, variação em 24h e volume.
+- **Busca em Tempo Real:** Filtro imediato de ativos por nome ou símbolo da moeda.
+- **Página de Detalhes:** Visualização profunda de métricas de uma moeda específica (maior/menor preço histórico, valor de mercado, oferta).
+- **Design Responsivo:** Adaptado para navegação fluida em dispositivos móveis e desktops.
 
-```
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+### Pré-requisitos
+- **Node.js** (versão 18 ou superior)
+- **npm** ou **yarn**
+
+### Passo a Passo
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/moronioliveira/criptoapp.git]
+
+   
+
+
+
+   
